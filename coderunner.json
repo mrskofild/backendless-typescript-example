@@ -1,0 +1,36 @@
+{
+  "backendless": {
+    "apiServer": "https://api.backendless.com",
+    "msgBroker": {
+      "host": "cl.backendless.com",
+      "port": 6379
+    }
+  },
+  "app": {
+    "id": "your_app_id",
+    "apiKey": "your_coderunner_api_key",
+    "model": "default",
+    "files": [
+      "build/app/**"
+    ],
+    "exclude": [
+      "package.json",
+      "coderunner.json",
+      "README.md",
+      "*.json",
+      "scripts/**",
+      "test/**",
+      "configs/**",
+      "bin/**",
+      "coverage/**",
+      "build/bin/**",
+      "build/configs/**",
+      "build/scripts/**",
+      "build/test/**",
+      "build/app/**/*.d.ts",
+      "build/app/**/*.js.map",
+      "app/**",
+      "debug-files/**"
+    ]
+  }
+}

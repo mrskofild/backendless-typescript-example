@@ -1,0 +1,43 @@
+{
+  "allow-uncaught": false,
+  "async-only": false,
+  "bail": false,
+  "check-leaks": false,
+  "color": true,
+  "delay": false,
+  "diff": true,
+  "exit": false,
+  "extension": [
+    "ts"
+  ],
+  "fail-zero": true,
+  "forbid-only": false,
+  "forbid-pending": false,
+  "full-trace": false,
+  "growl": false,
+  "exclude": [
+    "app/services/__tests__/**/*.ts"
+  ],
+  "inline-diffs": false,
+  "jobs": 10,
+  "node-option": [
+    "unhandled-rejections=strict"
+  ],
+  "package": "./package.json",
+  "parallel": false,
+  "recursive": false,
+  "reporter": "spec",
+  "retries": 1,
+  "slow": "75",
+  "sort": false,
+  "spec": [
+    "app/**/*.test.ts"
+  ],
+  "timeout": "2000",
+  "trace-warnings": true,
+  "ui": "bdd",
+  "v8-stack-trace-limit": 100,
+  "watch": false,
+  "watch-files": [],
+  "watch-ignore": []
+}

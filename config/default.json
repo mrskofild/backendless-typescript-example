@@ -1,0 +1,7 @@
+{
+  "PARALLEL_REQUESTS_LIMIT": 100,
+  "API_SERVER_URL": "https://develop.backendless.com/api",
+  "CONSOLE_SERVER_URL": "https://develop.backendless.com",
+  "CONSOLE_USER_EMAIL": "email",
+  "CONSOLE_USER_PWD": "password"
+}

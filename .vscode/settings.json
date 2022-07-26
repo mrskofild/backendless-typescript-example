@@ -1,0 +1,31 @@
+{
+  "cSpell.words": [
+    "backendless",
+    "Braintree",
+    "coderunner",
+    "trmi"
+  ],
+  "mocha.path": "${workspaceFolder}/node_modules/mocha",
+  "mocha.env": {
+    "NODE_ENV": "test",
+    "TS_NODE_PROJECT": "${workspaceFolder}/tsconfig.json",
+    "TS_NODE_TRANSPILE_ONLY": "true",
+    "TS_NODE_TYPE_CHECK": "false"
+  },
+  "mocha.requires": [
+    "${workspaceFolder}/node_modules/ts-node/register",
+    "${workspaceFolder}/node_modules/source-map-support/register",
+    "${workspaceFolder}/node_modules/tsconfig-paths/register",
+  ],
+  "mocha.files.glob": "${workspaceFolder}/test/**/*.test.ts",
+  "mocha.options": {
+    "timeout": 1000000,
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}

@@ -1,0 +1,7 @@
+/app/assets/**/*.js
+/**/__tests__/**/*.js
+/app/backendless/*
+/app/utils/*
+/app/models/base.js
+./index.d.ts
+build/*

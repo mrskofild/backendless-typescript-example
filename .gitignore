@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+coverage/
+build/*
+
+# Configs
+app/config/config.json
+config/*
+
+# Editors and IDEs
+.vscode/*
+
+# Misc
+.DS_Store
+package-lock.json
+
+.env

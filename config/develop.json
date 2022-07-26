@@ -1,0 +1,9 @@
+{
+  "API_SERVER_URL": "https://develop.backendless.com/api",
+  "CONSOLE_SERVER_URL": "https://develop.backendless.com",
+  "CLIENT_HOST": "http://develop.backendless.com",
+  "CLIENT_PORT": "",
+  "REST_API_KEY": "your_rest_api_key",
+  "APP_ID": "your_app_id",
+  "API_KEY": "your_coderunner_api_key"
+}

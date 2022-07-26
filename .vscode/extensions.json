@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+		"maty.vscode-mocha-sidebar", // Mocha sidebar
+    "humao.rest-client", // REST Client
+    "dbaeumer.vscode-eslint", // ESLint
+    "eamodio.gitlens", // GitLens
+    "mblode.twig-language-2", // Twig Language 2
+    "aaron-bond.better-comments", // Better Comments
+    "dmitrydorofeev.empty-indent", // Empty Indent
+    "streetsidesoftware.code-spell-checker" // Code Spell Checker
+	]
+}

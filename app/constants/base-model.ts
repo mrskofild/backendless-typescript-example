@@ -1,0 +1,8 @@
+const PAGE_SIZE = 100
+
+const RELATIONS_PAGE_SIZE = 100
+
+export {
+  PAGE_SIZE,
+  RELATIONS_PAGE_SIZE,
+}

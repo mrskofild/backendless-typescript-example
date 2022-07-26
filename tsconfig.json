@@ -1,0 +1,89 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "composite": true,
+    "target": "es2016",
+    "lib": [
+      "es2021"
+    ],
+    "types": [
+      "node",
+      "mocha",
+      "backendless",
+      "./app/types"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./app/types"
+    ],
+    "skipLibCheck": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useUnknownInCatchVariables": false,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "tsBuildInfoFile": "build/.tsbuildinfo",
+    "rootDir": "./",
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./",
+    "paths": {
+      "models/*": [
+        "app/models/*"
+      ],
+      "utils/*": [
+        "app/utils/*"
+      ],
+      "workflows/*": [
+        "app/workflows/*"
+      ],
+      "types/*": [
+        "app/types/*"
+      ],
+      "test/*": [
+        "test/*"
+      ],
+      "app/*": [
+        "app/*"
+      ],
+      "scripts/*": [
+        "scripts/*"
+      ]
+    }
+  },
+  "watchOptions": {
+    "watchFile": "fixedPollingInterval",
+    "watchDirectory": "fixedPollingInterval",
+    "fallbackPolling": "dynamicPriority",
+    "synchronousWatchDirectory": true,
+    "excludeDirectories": [
+      "**/node_modules",
+      "build",
+      "src/**/*.test.ts"
+    ],
+    "excludeFiles": []
+  },
+  "include": [
+    "scripts/**/*",
+    "scripts/**/*.json",
+    "bin/**/*",
+    "test/**/*",
+    "app/**/*",
+    "config/*.json",
+    "app/**/*.json",
+    "./coderunner.json"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
